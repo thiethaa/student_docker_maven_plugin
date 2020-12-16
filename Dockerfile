@@ -1,5 +1,5 @@
 FROM openjdk:latest
-ARG JAR_FILE
-ADD ${JAR_FILE} student_docker_plugin.jar
+#ARG JAR_FILE
+ADD target/student-docker.jar student-docker.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","student_docker_plugin.jar"]
+ENTRYPOINT ["java","-jar","student-docker.jar"]
