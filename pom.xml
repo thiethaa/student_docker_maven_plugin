@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.thiethaa</groupId>
-    <artifactId>student_docker_plugin</artifactId>
+    <artifactId>student-docker-plugin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>student_docker</name>
     <description>Demo project for Spring Boot</description>
