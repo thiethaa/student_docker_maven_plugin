@@ -108,7 +108,7 @@
                     <!-- ***********************************************************************************************************-->
                     <repository>thiethaa/${project.artifactId}</repository>
                     <!--change docker image tag -->
-                    <tag>v2</tag>
+                    <tag>v4.0.0</tag>
                     <!--*************************-->
                     <buildArgs>
                         <JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
