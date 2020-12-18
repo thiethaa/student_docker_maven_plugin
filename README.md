@@ -1,5 +1,7 @@
 # student_docker_maven_plugin
 
+docker image: https://hub.docker.com/repository/docker/thiethaa/student-docker-plugin
+
 Build docker image:
 
                 <build>
