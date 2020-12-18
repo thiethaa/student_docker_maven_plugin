@@ -2,6 +2,15 @@
 
 docker image: https://hub.docker.com/repository/docker/thiethaa/student-docker-plugin
 
+to pull and run image:
+         
+         docker pull thiethaa/student-docker-plugin:v4.0.0
+         
+         docker run -p 8000:8080 thiethaa/student-docker-plugin:v4.0.0  
+        
+        http://localhost:8000/welcome
+        
+
 Build docker image:
 
                 <build>
