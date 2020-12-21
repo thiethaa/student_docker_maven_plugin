@@ -1,5 +1,18 @@
 # student_docker_maven_plugin
 
+docker image: https://hub.docker.com/repository/docker/thiethaa/student-docker-plugin
+
+to pull and run image:
+         
+         docker pull thiethaa/student-docker-plugin:v4.0.0
+         
+         docker run -p 8000:8080 thiethaa/student-docker-plugin:v4.0.0  
+        
+app should be run on :http://localhost:8000/welcome
+
+or http://localhost:8000/students
+        
+
 Build docker image:
 
                 <build>
