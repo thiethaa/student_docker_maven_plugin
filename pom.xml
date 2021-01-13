@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.thiethaa</groupId>
     <artifactId>student-docker-plugin</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1.2.3</version>
     <name>student_docker</name>
     <description>Demo project for Spring Boot</description>
 
