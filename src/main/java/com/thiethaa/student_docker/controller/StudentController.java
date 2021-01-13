@@ -17,12 +17,12 @@ public class StudentController {
     }
 
     @RequestMapping("/welcome")
-    public String greeting(){
+    public String greeting() {
         return "Welcome To the Student Portal 2020";
     }
 
     @GetMapping("/students")
-    public List<Student> getStudents(){
+    public List<Student> getStudents() {
         return service.getStudents();
     }
 }
