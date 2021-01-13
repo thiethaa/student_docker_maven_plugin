@@ -1,6 +1,7 @@
 # student_docker_maven_plugin
 
 docker image: https://hub.docker.com/repository/docker/thiethaa/student-docker-plugin
+teamcity-ci: http://localhost:8111/project.html?projectId=StudentDockerMavenPlugin&tab=projectOverview
 
 to pull and run image:
          
