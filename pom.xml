@@ -62,7 +62,7 @@
                     <!--added useMavenSettingAuth tag and set to be true to read the credential from settings.xml under ~/.m2 folder-->
                     <useMavenSettingsForAuth>true</useMavenSettingsForAuth>
                     <!-- ***********************************************************************************************************-->
-                    <repository>thiethaa/${project.artifactId}</repository>
+                    <repository>thiethaa89/${project.artifactId}</repository>
                     <!--change docker image tag -->
                     <tag>v11.teamcity</tag>
                     <!--*************************-->
